@@ -1,0 +1,27 @@
+**Título**: Implementación del Carrito de Compras en JavaScript
+
+**Resumen**: 
+Este script de JavaScript se encarga de la gestión del carrito de compras en una tienda en línea. Se ejecuta una vez que se ha cargado completamente el contenido del DOM. La funcionalidad principal incluye agregar productos al carrito, incrementar la cantidad de un producto, disminuir o eliminar productos del carrito, y actualizar la cantidad total de productos en el carrito.
+
+**Detalles de Funcionalidad**:
+
+1. **Inicialización**:
+   - El script espera a que todo el contenido del DOM esté cargado antes de ejecutar las funciones.
+
+2. **Agregar Productos al Carrito**:
+   - Selecciona todos los botones marcados con la clase `.add-to-cart`.
+   - A cada botón se le asigna un evento 'click' que ejecuta la función `addToCart` con los detalles del producto correspondiente.
+
+3. **Función `addToCart`**:
+   - Esta función revisa si el producto ya existe en el carrito.
+   - Si
+
+ el producto existe, incrementa su cantidad.
+   - Si no, crea un nuevo elemento de lista en el carrito con el nombre del producto, una imagen, y botones para eliminar o disminuir la cantidad del producto.
+
+4. **Gestión de Cantidades y Eliminación de Productos**:
+   - Cada producto en el carrito tiene botones para eliminar todo el producto o disminuir su cantidad.
+   - Al hacer clic en estos botones, se actualiza la cantidad del producto o se elimina del carrito.
+
+5. **Actualizar Contador del Carrito**:
+   - Una función `updateCartCount` mantiene actualizado el contador total de productos en el carrito.

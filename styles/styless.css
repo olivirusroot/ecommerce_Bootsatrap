@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecd3e2; 
+}
+
+.navbar-custom {
+    background-color: rgb(150, 40, 204); 
+}
+
+.navbar-brand, .nav-link {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto */
+    color: #17d0d0; 
+    margin-left: 100px; /* Añade margen a la izquierda */
+    margin-right: 100px; /* Añade margen a la derecha */
+}
+
+.navbar-nav .nav-link:hover, .navbar-brand:hover {
+    color: #2e382e; /* Efecto hover */
+}
+
+.navbar-toggler {
+    border-color: #fcd3de; /* Mimi Pink */
+    color: #fcd3de;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fcd3de' viewBox='0 0 16 16' width='30' height='30'%3E%3Cpath fill-rule='evenodd' d='M1.5 2.5A.5.5 0 0 1 2 2h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+
+.card {
+    border-color: #72a1e5; 
+}
+
+.card-title {
+    color: #9883e5; 
+}
+
+.add-to-cart {
+    background-color: #50c9ce; 
+    color: white;
+}
+
+.btn-outline-success {
+    color: #fcd3de; 
+    border-color: #fcd3de;
+}
+
+.btn-outline-success:hover {
+    background-color: #fcd3de; 
+}
+
+/* Estilos responsivos para tarjetas de productos 
+@media (max-width: 992px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}*/

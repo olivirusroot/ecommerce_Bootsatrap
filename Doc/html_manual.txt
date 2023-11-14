@@ -1,0 +1,64 @@
+1. **Inclusión de Bootstrap CSS**: 
+   - `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">`
+   - Esta línea importa la hoja de estilos CSS de Bootstrap desde un CDN. Bootstrap utiliza este CSS para aplicar su sistema de diseño predeterminado, que incluye una rejilla responsive, componentes de UI y utilidades.
+
+2. **Bootstrap Icons**:
+   - `<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">`
+   - Aquí se agrega la biblioteca de íconos de Bootstrap, que proporciona una amplia gama de íconos para usar en la interfaz de usuario.
+
+3. **Barra de Navegación (Navbar)**:
+   - `class="navbar navbar-expand-lg navbar-custom"`
+   - La barra de navegación utiliza clases de Bootstrap para su diseño y comportamiento responsive. `navbar-expand-lg` indica que el navbar se colapsará en un menú de hamburguesa en pantallas menores que "large".
+
+4. **Botón de Navegación (Toggler)**:
+   - `class="navbar-toggler"`
+   - Este botón es utilizado para colapsar y expandir el navbar en vistas móviles. Las clases y atributos `data-*` son específicos de Bootstrap para controlar la expansión.
+
+5. **Sistema de Rejilla (Grid System)**:
+   - `class="row"` y `class="col-lg-3 col-md-6 col-sm-12"`
+   - Bootstrap utiliza un sistema de rejilla flexible para crear diseños responsivos. Las clases `col-*` definen cómo cada tarjeta de producto se comportará en diferentes tamaños de pantalla.
+
+6. **Tarjetas (Cards)**:
+   - `class="card"`
+   - Las tarjetas son un componente de Bootstrap utilizado para mostrar contenido en un contenedor con estilos. Se utiliza aquí para mostrar productos.
+
+7. **Botones**:
+   - `class="btn btn-primary"` y `class="btn btn-success"`
+   - Bootstrap proporciona varios estilos predefinidos para botones, como `btn-primary` y `btn-success`, que definen el color y otros estilos del botón.
+
+8. **Contenedores (Containers)**:
+   - `class="container"`
+   - Los contenedores son elementos fundamentales en Bootstrap para centrar y alinear el contenido de la página.
+
+9. **Inclusión de Bootstrap JS y Popper.js**:
+   - `<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>`
+   - Esta línea importa el JavaScript de Bootstrap y Popper.js, necesario para ciertas funcionalidades dinámicas como los menús desplegables o el colapso del navbar.
+
+----------------
+Adicionales:
+
+
+1. **`<a class="navbar-brand mx-auto" href="#">Tienda</a>`**:
+   - `navbar-brand`: Esta clase se usa generalmente para la marca o el logo en un navbar. En este caso, se está utilizando para el nombre de la tienda.
+   - `mx-auto`: Esta es una clase de utilidad de Bootstrap para aplicar un margen automático a ambos lados del elemento (izquierda y derecha). Esto centra el elemento (en este caso, el nombre de la tienda) dentro de su contenedor.
+
+2. **`<span class="navbar-toggler-icon"></span>`**:
+   - `navbar-toggler-icon`: Esta clase se utiliza para el ícono del botón que muestra y oculta el menú de navegación en dispositivos móviles (a menudo conocido como el ícono de "hamburguesa"). Este ícono solo es visible en pantallas pequeñas cuando el navbar se colapsa.
+
+3. **`<ul class="navbar-nav mx-auto">`**:
+   - `navbar-nav`: Esta clase define un conjunto de enlaces dentro del navbar. Es una clase especial de Bootstrap que asegura que los elementos de la lista se muestren correctamente en un navbar.
+   - `mx-auto`: Nuevamente, esta clase se usa para centrar automáticamente el elemento en su contenedor, asegurando que los elementos de la lista se alineen en el centro del navbar.
+
+4. **`<div class="collapse navbar-collapse" id="navbarNav">`**:
+   - `collapse`: Esta clase de Bootstrap se utiliza para elementos que se pueden mostrar y ocultar, como el contenido del navbar en dispositivos móviles.
+   - `navbar-collapse`: Esta clase específica se utiliza junto con `collapse` para controlar la visibilidad del contenido del navbar en respuesta a la acción del botón de toggler.
+   - `id="navbarNav"`: Este ID es un identificador único utilizado para asociar el contenido colapsable con su botón toggler correspondiente.
+
+5. **`<li class="nav-item">`**:
+   - `nav-item`: Esta clase se utiliza para los elementos individuales dentro de una lista de navegación (`<ul>`). Ayuda a estilizar los elementos de la lista de acuerdo con las normas de diseño de Bootstrap.
+
+6. **`<a class="btn btn-outline-success" href="#carrito">`**:
+   - `btn`: Esta es la clase base para todos los botones en Bootstrap.
+   - `btn-outline-success`: Esta es una variante de botón en Bootstrap que crea un botón con un borde y un color de texto definidos, que cambia al color de fondo al interactuar. En este caso, `btn-outline-success` se refiere a un estilo de botón con un borde y un texto de color verde que se llena de verde al pasar el mouse sobre él o al hacer clic.
+   - `href="#carrito"`: Este enlace apunta a un elemento en la misma página con el ID `carrito`. Al hacer clic en este botón, la página se desplazará hacia el elemento con ese ID.
+
